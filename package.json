@@ -13,8 +13,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "next-lint": "next lint",
-    "next-lint:fix": "next-lint --fix",
     "format": "prettier --check \"**/*.{js,jsx}\" --cache",
     "format:fix": "prettier --write \"**/*.{js,jsx}\" --cache"
   },

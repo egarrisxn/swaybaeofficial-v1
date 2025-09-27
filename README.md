@@ -1,20 +1,24 @@
-# Sway Bae Official
+# Sway Bae Official (v1)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/swaybaeofficial-v1) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/swaybaeofficial-v1)
 
 ![swaybaeofficial](https://github.com/user-attachments/assets/49ae70c8-0352-49ba-bbc6-6ec713ed5460)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/swaybaeofficial) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/swaybaeofficial)
-
 ## Overview
 
-The official website for a full-time streamer and content creator, @Sway_Bae.
+The **OLD** online space for full-time streamer and content creator, Sway Bae.
+<br/>
+For the latest version, please visit [swaybaeofficial-v2](https://github.com/egarrisxn/swaybaeofficial-v2) to check it out.
 
 ## Technologies
 
-- Sanity
+- JavaScript
 - Next.js
 - React
-- JavaScript
+- Sanity
 - Tailwind CSS
+- Vercel
+- More..
 
 ## Disclaimer
 
