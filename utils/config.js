@@ -1,6 +1,6 @@
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ||
-  "https://swaybaeofficial-v1-omlqoxdsk-egxo.vercel.app/";
+  "https://swaybaeofficial-v1-egxo.vercel.app/";
 
 export const site = {
   name: "Sway Bae",

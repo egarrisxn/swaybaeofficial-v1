@@ -3,7 +3,7 @@ import sitemapData from "../utils/sanity/sitemap";
 export default async function sitemap() {
   const { posts, tags } = await sitemapData();
 
-  const baseUrl = "https://swaybaeofficial-v1-omlqoxdsk-egxo.vercel.app/";
+  const baseUrl = "https://swaybaeofficial-v1-egxo.vercel.app/";
 
   const staticRoutes = [
     {
