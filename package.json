@@ -60,7 +60,6 @@
   },
   "pnpm": {
     "onlyBuiltDependencies": [
-      "@vercel/speed-insights",
       "esbuild",
       "scrollmirror",
       "sharp",
