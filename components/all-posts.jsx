@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import { Button } from "./ui/button";
 import FeaturedCard from "./featured-card";
 import LatestCard from "./latest-card";
 
@@ -40,14 +39,13 @@ export function AllPosts({ posts }) {
       </section>
       {posts.length > loadMore && (
         <div className="flex justify-center pb-12 pt-4">
-          <Button
-            variant="fun"
-            size="md"
+          <button
             type="button"
             onClick={showMoreArticles}
+            className="relative inline-flex h-10 cursor-pointer appearance-none items-center justify-center overflow-hidden whitespace-nowrap rounded-lg border-2 bg-light-fade px-12 shadow-soft transition-transform duration-500 ease-in-out before:absolute before:inset-0 before:z-[-1] before:translate-x-full before:bg-gradient-to-r before:from-primary-tint before:to-primary-fade before:duration-500 hover:scale-105 hover:shadow-hard hover:before:-translate-x-0 focus-visible:outline-none focus-visible:ring-0 active:scale-100 disabled:pointer-events-none disabled:opacity-50 2xl:text-base 3xl:text-lg dark:bg-dark-fade"
           >
             Load more posts
-          </Button>
+          </button>
         </div>
       )}
     </>

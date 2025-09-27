@@ -28,27 +28,6 @@ const Icon = {
   Search: ({ className, ...props }) => (
     <Search {...thickerProps} className={className} {...props} />
   ),
-  Undo2: ({ className, ...props }) => (
-    <Undo2
-      {...thickerProps}
-      className={`transition-all 3xl:size-[1.75rem] ${className}`}
-      {...props}
-    />
-  ),
-  Files: ({ className, ...props }) => (
-    <Files
-      {...thickerProps}
-      className={`transition-all 3xl:size-[1.5rem] ${className}`}
-      {...props}
-    />
-  ),
-  Mail: ({ className, ...props }) => (
-    <Mail
-      {...thickerProps}
-      className={`transition-all 3xl:size-[1.5rem] ${className}`}
-      {...props}
-    />
-  ),
   ChevronLeft: ({ className, ...props }) => (
     <ChevronLeft
       {...biggerProps}

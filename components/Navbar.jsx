@@ -44,7 +44,7 @@ const navLinks = [
   { href: "/blog", label: "Blog" },
   { href: "/#contact", label: "Contact" },
   { href: "https://shop.swaybae.net/", label: "Store", external: true },
-  { href: "/subathon", label: "Subathon!" },
+  // { href: "/subathon", label: "Subathon!" },
 ];
 
 export default function Navbar() {

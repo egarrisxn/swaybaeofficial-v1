@@ -2,7 +2,7 @@ export default function manifest() {
   return {
     name: "Sway Bae",
     short_name: "Sway Bae",
-    description: "The official Page for Sway Bae & The Bae Squad!",
+    description: "The OLD online space for Sway Bae & The Bae Squad!",
     id: "/",
     start_url: "/",
     theme_color: "#5176a6",
@@ -33,19 +33,6 @@ export default function manifest() {
         sizes: "512x512",
         type: "image/png",
         purpose: "maskable",
-      },
-    ],
-    screenshots: [
-      {
-        src: "/screenshots/desktop.png",
-        sizes: "1920x1080",
-        type: "image/png",
-        form_factor: "wide",
-      },
-      {
-        src: "/screenshots/mobile.png",
-        sizes: "750x1334",
-        type: "image/png",
       },
     ],
   };

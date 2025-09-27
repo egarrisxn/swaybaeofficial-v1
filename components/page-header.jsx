@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Icon } from "./ui/icon";
+import { Undo2 } from "lucide-react";
 import { Search } from "./search";
 
 export default function PageHeader({
@@ -25,7 +25,7 @@ export default function PageHeader({
       {showLink && (
         <Link href={linkHref}>
           <div className="flex flex-row items-center gap-0.5 sm:ml-2 3xl:ml-3 3xl:mt-6 3xl:gap-1">
-            <Icon.Undo2 />
+            <Undo2 className="size-4 transition-all 3xl:size-[1.75rem]" />
             <h1
               id={id}
               className={`bg-gradient-to-tr from-purple via-pink-tint to-pink-fade bg-clip-text text-xl uppercase tracking-widest text-transparent 3xl:text-3xl`}

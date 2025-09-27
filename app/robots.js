@@ -6,6 +6,6 @@ export default function robots() {
         allow: ["/"],
       },
     ],
-    sitemap: "https://swaybae.net/sitemap.xml",
+    sitemap: "https://swaybaeofficial-v1-omlqoxdsk-egxo.vercel.app/sitemap.xml",
   };
 }

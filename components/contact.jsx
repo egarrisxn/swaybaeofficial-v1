@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Button } from "./ui/button";
-import { Icon } from "./ui/icon";
+import { Mail, Files } from "lucide-react";
 import PageHeader from "./page-header";
 
 function ContactInfo({ title, subtitle, icon, detail, href, ariaLabel }) {
@@ -10,16 +9,16 @@ function ContactInfo({ title, subtitle, icon, detail, href, ariaLabel }) {
       <h3 className="text-lg font-extrabold 3xl:text-3xl">{title}</h3>
       <ul className="mt-2 sm:mt-1 lg:mt-2 xl:mt-3 3xl:mt-4">
         <li className="flex items-center gap-2">
-          <Button asChild variant="social" size="icon">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href={href}
-              aria-label={ariaLabel}
-            >
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href={href}
+            aria-label={ariaLabel}
+          >
+            <button className="mx-auto inline-flex size-8 cursor-pointer appearance-none items-center justify-center whitespace-nowrap rounded-full border border-light-tint bg-w2b font-semibold shadow-soft transition-all hover:border-2 hover:border-light-fade hover:bg-light hover:text-b2w hover:shadow-hard focus-visible:outline-none focus-visible:ring-0 disabled:pointer-events-none disabled:opacity-50 max-[375px]:size-7 lg:size-10 xl:size-11 2xl:size-12 3xl:size-14 dark:border-gray-tint dark:hover:border-gray-fade dark:hover:bg-dark-fade">
               {icon}
-            </a>
-          </Button>
+            </button>
+          </a>
           <div>
             <p className="block text-sm text-gray-800 xl:text-base 3xl:text-xl dark:text-gray-300">
               {subtitle}
@@ -120,7 +119,7 @@ export default function Contact() {
               detail="Sway.Bae9000@gmail.com"
               href="mailto:Sway.Bae9000@gmail.com"
               ariaLabel="Email Sway Bae"
-              icon={<Icon.Mail />}
+              icon={<Mail />}
             />
             <ContactInfo
               title="Media Kit"
@@ -128,7 +127,7 @@ export default function Contact() {
               detail="beacons.ai/sway_bae/mediakit"
               href="https://beacons.ai/sway_bae/mediakit"
               ariaLabel="View Media Kit"
-              icon={<Icon.Files />}
+              icon={<Files />}
             />
           </div>
           {/* Form */}
