@@ -30,7 +30,6 @@
     "@sanity/preview-url-secret": "^2.0.5",
     "@sanity/react-loader": "^1.10.31",
     "@vercel/analytics": "^1.5.0",
-    "@vercel/speed-insights": "^1.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "embla-carousel-class-names": "^8.5.2",
